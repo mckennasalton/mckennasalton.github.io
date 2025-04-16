@@ -1,8 +1,8 @@
 img {
-    width: 50%
+    width: 20%
 }
 h1 { 
-    color: #FF0000 ;
+    color: #71e3e9 ;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
     font-style: normal
@@ -11,15 +11,19 @@ p {
     line-height: 150%;
 }
 * { 
-    font-family: "Special Gothic Expanded One", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+    .special- {
+        font-family: "Special Gothic Expanded One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
 }
-body {background-color: #FFF0DB;
+body {background-color: #201507;
 }
 #McKennaSalton {
     font-size: .8em;
     width: 900px;
     height: 150px;
     } 
-a:link { color: red; }
+a:link { color: rgb(255, 0, 208); }
+* {padding: .2%;}
