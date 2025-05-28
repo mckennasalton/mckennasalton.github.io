@@ -1,30 +1,34 @@
-* {margin: 0; padding: 0;}
+.bounce {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes bounce {
+    0%   { top: 0px; }
+    50%  { top: 100px; }
+    100% { top: 0px; }
+  }
 
-#wrapper {
-    width: 90%;
-    margin: auto;
-    }
-
+  .transform-hover {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .transform-hover:hover {
+    transform: rotate(45deg) scale(1.5);
+  }
+  
 img {
     width: 20%;
     height: 200%;
-}
-
-.columns {float:left;}
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-.clear-left {
-    clear: left;
 }
 
 h1 { 
@@ -48,14 +52,6 @@ p {
 
 body {
         background-color: #2b1a04;
-        background-image: url("Basketball.png");
-        background-repeat:repeat-y;
-        background-size: 10%;
-        background-position-x: right;
-}
-
-ul#mainnav {
-            list-style-type:decimal;
 }
 
 #McKennaSaltonBio {
@@ -74,11 +70,7 @@ footer {
         text-decoration: blink;
         text-transform: uppercase;
         color: #ff00e6;
-        background-image: url("BurstPattern.jpg");
     }
-
-    @media only screen and (max-width: 480px) {} /* smaller than mobile
-*/
 
 #wrapper {
     width: 80%;
