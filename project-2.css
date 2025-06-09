@@ -2,7 +2,7 @@ body {
     background-color: #e9dece;
     }
     
-    h1 {
+   h1 {
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -11,7 +11,26 @@ body {
     text-align: left;
     padding-bottom: 30px;
     margin-left: 40%;
-    }
+
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeSlideIn 1.5s ease forwards;
+    animation-delay: 0.3s;
+}
+
+#container > .row > .three.columns > p {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeSlideIn 1.5s ease forwards;
+    animation-delay: 0.6s;
+}
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
     
     h2 {
     font-family: "Archivo Black", sans-serif;
@@ -42,13 +61,23 @@ body {
     }
     
     .center-line {
-    position: absolute;
-    top: 200;
-    bottom: -4420;
-    left: 31%;
-    width: 5px;
-    background-color: rgb(233, 13, 13);
-    transform: translateX(-50%);
-    }
-    
-  
+        position: absolute;
+        top: 18vh; 
+        left: 31%;
+        width: 5px;
+        background-color: rgb(233, 13, 13);
+        transform: translateX(-50%);
+      
+        height: 0; 
+        animation: growLine 2s ease-out forwards;
+        animation-delay: 0.3s;
+      }
+
+      @keyframes growLine {
+        from {
+          height: 0;
+        }
+        to {
+          height: 440vh; 
+        }
+      }
