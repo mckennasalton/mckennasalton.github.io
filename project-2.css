@@ -8,16 +8,18 @@ body {
     font-style: normal;
     font-size: 15em;
     color: rgb(37, 35, 35);
-    text-align: center;
+    text-align: left;
     padding-bottom: 30px;
+    margin-left: 40%;
     }
     
     h2 {
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 4em;
+    font-size: 6em;
     color: rgb(37, 35, 35);
+    margin-left: 20%;
     }
     
     h3 {
@@ -26,6 +28,7 @@ body {
     font-style: normal;
     font-size: 10em;
     color: rgb(37, 35, 35);
+    margin-left: 20%;
     
     }
     
@@ -35,19 +38,17 @@ body {
     font-weight: weight;
     font-style: normal;
     color: rgb(37, 35, 35);
+    
     }
     
     .center-line {
     position: absolute;
-    top: 935;
-    bottom: -3000;
-    left: 37%;
+    top: 200;
+    bottom: -4420;
+    left: 31%;
     width: 5px;
     background-color: rgb(233, 13, 13);
     transform: translateX(-50%);
     }
     
-    p {
-    margin: 50px;
-    }
-    
+  
