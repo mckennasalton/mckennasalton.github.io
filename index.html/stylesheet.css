@@ -25,11 +25,6 @@
   .transform-hover:hover {
     transform: rotate(45deg) scale(1.5);
   }
-  
-img {
-    width: 20%;
-    height: 200%;
-}
 
 h1 { 
     color: #ff00e6 ;
@@ -89,3 +84,46 @@ footer {
             float: left;
             margin: 0%
             }}
+
+
+  
+            body {
+              font-family: 'Special Gothic Expanded One', sans-serif;
+              padding-top: 20px;
+            }
+        
+            header {
+              text-align: center;
+              margin-bottom: 40px;
+            }
+        
+            img {
+              max-width: 100%;
+              border-radius: 8px;
+            }
+        
+            footer {
+              margin-top: 40px;
+              text-align: center;
+              padding: 20px 0;
+              border-top: 1px solid #ddd;
+            }
+        
+            nav ul {
+              list-style-type: none;
+              padding: 0;
+            }
+        
+            nav li {
+              margin: 10px 0;
+            }
+        
+            nav a {
+              text-decoration: none;
+              color: #2b2b2b;
+            }
+        
+            nav a:hover {
+              text-decoration: underline;
+            }
+    
